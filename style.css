@@ -1,0 +1,66 @@
+/*** 🔰 Start: Cautron Splide + jsDelivr Marquee Logos ***/
+
+/* 🌐 Master container for the full horizontal logo scroller */
+.ctrn-marquee-logos {
+  overflow: hidden;
+  width: 100%;
+}
+
+/* 🎥 Viewport that exposes the horizontally scrolling content */
+.ctrn-marquee-logos .splide__track {
+  overflow: visible;
+  display: flex;
+  width: max-content;
+}
+
+/* 🧱 Primary + cloned content tracks */
+.ctrn-marquee-logos .splide__list,
+.ctrn-marquee-logos .splide__list.clone {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+}
+
+/* 🔳 Each logo container (slide element) */
+.ctrn-marquee-logos .splide__slide {
+  min-width: 90px !important;
+  max-width: 100px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 📱 Responsive width tweaks for smaller screens */
+@media (max-width: 850px) {
+  .ctrn-marquee-logos .splide__slide {
+    min-width: 85px !important;
+    max-width: 95px !important;
+  }
+}
+
+/* ♾️ Ensure the cloned track remains visible for illusion of continuity */
+.ctrn-marquee-logos .splide__list.clone {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* 🖼 Logo image styling: scale-fit while preserving proportions */
+.ctrn-marquee-logos .splide__slide img {
+  height: 100%;
+  width: auto;
+  max-height: 120px;
+  flex-shrink: 0;
+  object-fit: contain;
+  max-width: 100%;
+  display: block;
+}
+
+/* 🧽 UL / LI reset styles for structure cleanliness */
+.ctrn-marquee-logos ul,
+.ctrn-marquee-logos li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*** 🔚 End: Cautron Splide + jsDelivr Marquee Logos ***/
