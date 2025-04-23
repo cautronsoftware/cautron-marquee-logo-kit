@@ -1,6 +1,6 @@
 # cautron-marquee-logo-widget
 🚀 Splide.js-powered marquee logo component kit by Cautron — built with jsDelivr CDN integration, fully responsive design, and pixel-perfect styling. Perfect for showcasing trusted tech providers, partners and customers on high-end websites. Crafted by Cautron Software | cautron.com
-# 🌀 Cautron Infinite Marquee Logos Component
+# 🌀 Cautron Infinite Marquee Logos Widget
 
 A lightweight, high-performance, **infinitely looping logo slider** powered by [Splide.js](https://splidejs.com/) and [jsDelivr](https://www.jsdelivr.com/), crafted with performance, stability and brand clarity in mind.
 
